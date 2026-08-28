@@ -1,0 +1,7 @@
+:root{
+--text-display-1:clamp(44px,5vw,72px);--text-display-2:clamp(36px,4vw,56px);
+--text-h1:44px;--text-h2:34px;--text-h3:26px;--text-h4:20px;--text-h5:17px;
+--text-body-lg:19px;--text-body:16px;--text-body-sm:14px;--text-caption:13px;--text-eyebrow:12px;
+--leading-tight:1.04;--leading-snug:1.18;--leading-normal:1.5;--leading-relaxed:1.65;
+--weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;--weight-extrabold:800;--weight-black:900;
+--tracking-tight:-0.02em;--tracking-normal:0;--tracking-wide:0.04em;--tracking-eyebrow:0.14em}

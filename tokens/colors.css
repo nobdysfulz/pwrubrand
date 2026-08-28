@@ -1,0 +1,23 @@
+:root{
+/* Brand — magenta (primary). --pwru-magenta-500 #b3297a is the brand magenta. */
+--pwru-magenta-50:#FBEDF4;--pwru-magenta-100:#F3D3E4;--pwru-magenta-300:#D96FA9;--pwru-magenta-400:#C44490;--pwru-magenta-500:#b3297a;--pwru-magenta-600:#951F65;--pwru-magenta-700:#71164C;
+/* Brand — violet (secondary), the far end of the brand gradient (#4f1e86) */
+--pwru-violet-50:#F0EBF8;--pwru-violet-100:#DBCFEE;--pwru-violet-300:#8C63BE;--pwru-violet-400:#6A34A2;--pwru-violet-500:#4f1e86;--pwru-violet-600:#3C1767;--pwru-violet-700:#2A1049;
+/* Neutrals — the charcoal bar + paper greys of the workbook system */
+--ink-950:#0D0D0D;--ink-900:#131313;--ink-800:#2B2B2B;--ink-700:#3D3D3D;--ink-600:#555555;--ink-500:#6B6B6B;--ink-400:#8E8E8E;--ink-300:#B4B4B4;--ink-200:#DEDEDE;--ink-100:#EFEFEF;--ink-50:#F7F7F8;--white:#FFFFFF;
+/* Semantic status */
+--green-500:#17A673;--green-50:#E6F7F0;--amber-500:#F0A202;--amber-50:#FEF4E0;--red-500:#D62828;--red-50:#FCEAEA;--blue-500:#2F72E5;--blue-50:#E9F1FD;
+/* Gradients */
+--gradient-brand:linear-gradient(135deg,#b3297a 0%,#4f1e86 100%); /* @kind color */
+--gradient-brand-reverse:linear-gradient(135deg,#4f1e86 0%,#b3297a 100%); /* @kind color */
+--gradient-brand-band:linear-gradient(100deg,#b3297a 0%,#4f1e86 100%); /* @kind color */
+--gradient-ink:linear-gradient(180deg,#2B2B2B 0%,#0D0D0D 100%); /* @kind color */
+--gradient-scrim:linear-gradient(180deg,rgba(13,13,13,0) 0%,rgba(13,13,13,.78) 70%,rgba(13,13,13,.94) 100%); /* @kind color */
+--gradient-paper:linear-gradient(160deg,#FFFFFF 0%,#F7F7F8 55%,#F0EBF8 100%); /* @kind color */
+/* Semantic aliases */
+--text-strong:var(--ink-900);--text-body:var(--ink-700);--text-muted:var(--ink-500);--text-inverse:var(--white);--text-brand:var(--pwru-magenta-500);--text-on-brand:var(--white);
+--surface-page:var(--white);--surface-subtle:var(--ink-50);--surface-card:var(--white);--surface-ink:var(--ink-900);--surface-ink-soft:var(--ink-800);--surface-brand:var(--pwru-magenta-500);--surface-brand-soft:var(--pwru-magenta-50);--surface-violet-soft:var(--pwru-violet-50);
+--border-subtle:var(--ink-200);--border-strong:var(--ink-300);--border-ink:var(--ink-900);--border-brand:var(--pwru-magenta-500);
+--action-primary:var(--pwru-magenta-500);--action-primary-hover:var(--pwru-magenta-600);--action-primary-active:var(--pwru-magenta-700);--action-secondary:var(--ink-900);--action-secondary-hover:var(--ink-700);
+--focus-ring:0 0 0 3px rgba(179,41,122,.32);
+--link:var(--pwru-magenta-600);--link-hover:var(--pwru-violet-500)}

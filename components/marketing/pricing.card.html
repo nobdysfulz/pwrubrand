@@ -1,0 +1,23 @@
+<!-- @dsCard group="Components" viewport="700x460" name="Pricing + Proof" subtitle="Plan cards, testimonials, CTA band" -->
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:20px;background:var(--surface-subtle)}.g{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px;align-items:start}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const { PricingCard, TestimonialCard, CTABanner } = window.PowerUnitCoachingDesignSystem_dff922;
+ReactDOM.createRoot(document.getElementById('root')).render(<div>
+<div className="g">
+<PricingCard name="PWRU University" blurb="A structured production system on your own schedule." price="$49" features={['100+ bite-sized courses','Printable workbooks','Branding templates']} ctaLabel="Try 7-Days Free"/>
+<PricingCard featured name="PULSEIntel PRO" blurb="AI builds your daily plan and replaces up to 12 tools." price="$99" features={['Daily AI Action Plan','Role-Play Simulator','CMA Generator']} ctaLabel="Get Started"/>
+<PricingCard name="Teams / Brokers" blurb="A white-label platform deployed to your full roster." price="Let's Chat" period="" priceNote="Starts at $19/mo per agent." features={['Custom branded onboarding','Real-time dashboards']} ctaLabel="More Info"/>
+</div>
+<div className="g" style={{gridTemplateColumns:'1fr 1fr'}}>
+<TestimonialCard result="22 deals closed" quote="That was a direct result of this program. I didn't have the confidence. I was scared." name="Paula A." role="LPT Realty"/>
+<TestimonialCard tone="ink" quote="We invited two agents to see it and they joined our brokerage thanks to you!" name="Deb Ambrosi" role="Broker/Owner — Ambrosi Realty"/>
+</div>
+<CTABanner title="Stop guessing. Start performing." note="Just $49/month. Cancel Anytime." primaryLabel="Contact Us Now" secondaryLabel="See Pricing"/>
+</div>);
+</script></body></html>
